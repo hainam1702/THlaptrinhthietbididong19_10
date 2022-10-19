@@ -60,31 +60,32 @@ export default function Login({ navigation }) {
 
 const styles = StyleSheet.create({
     container: {
-        backgroundColor: '#eee',
+        backgroundColor: '#fff',
         width: '100%',
-        height: '100%',
+        height: '100%'
     },
     content: {
         flex: 1,
         justifyContent: 'space-between',
         width: '100%',
-        backgroundColor: '#eee',
+        alignItems: 'center',
+        justifyContent: 'center',
     },
 
     form: {
-        flex: 1,
         flexDirection: 'column',
-        alignItems: 'center',
-        justifyContent: 'center'
+        backgroundColor: '#abc',
+        padding: 40,
+        borderRadius: 7,
     },
 
     textInput: {
         borderWidth: 1,
-        borderColor: '#999',
+        borderColor: '#000',
         padding: 10,
         marginBottom: 20,
         minWidth: 200,
-        textAlign: 'center'
+        textAlign: 'center',
     },
 
     button: {}
